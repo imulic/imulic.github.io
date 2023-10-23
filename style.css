@@ -23,11 +23,12 @@ p {
 .container{
     background-color: hsl(212, 45%, 89%);
     padding-block: 3rem;
-    margin-top: 200px;
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    box-shadow: rgb(118, 118, 118) 0px 0px 10px 0px;
 }
 
 img{
@@ -44,5 +45,12 @@ img{
     width: 300px; 
     border-radius: 10px;
     padding: 0.25rem;
-    box-shadow: rgb(118, 118, 118) 0px 0px 10px 0px;
+    box-shadow: rgb(118, 118, 118) 0px 10px 100px 1px;
 }
+
+@media screen and (max-width: 500px) {
+    .container{
+       padding-block: 10rem;
+    }
+}
+    
